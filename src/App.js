@@ -1,4 +1,10 @@
 import React , {Component} from 'react';
+import Projects from './Projects';
+import SocialProfiles from './SocialProfiles';
+import profile from "./assets/profile.png";
+
+
+
 /*class Regular{};
 class ComponentClass extends Component{};
 
@@ -43,11 +49,16 @@ class App extends Component{
 </div>);
     return(
             <div>
+                <img src={profile} alt='profile' className="profile"></img>
                 <h1>Hello!</h1>
                 <p>My name is Vandana Gupta. I am a computer science Engineer. </p> 
                 <p>I am looking for the full time job opportunity.
                 </p>
                 {bio}
+                <hr/>
+                <Projects/>
+                <hr/>
+                <SocialProfiles/>
                 </div>        
             )
     }

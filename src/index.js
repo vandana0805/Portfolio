@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'
+import './index.css';
 
 ReactDOM.render(<App />,document.getElementById('root'));
-
+/*
 class Animal
 {
     constructor(name, age)
@@ -46,3 +47,4 @@ const animal2= new Lion("Simba", 8 ,"red", 90);
 animal2.speak();
 animal2.roar();
 console.log(animal2);
+*/
