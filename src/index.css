@@ -23,3 +23,27 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: "EconomicaBold";
 }
+
+.title-fade-in{
+    opacity: 100;
+    animation-name: fade-in;
+    animation-duration: 2s;
+
+}
+
+.title-fade-out{
+    opacity:0;
+    animation-name: fade-out;
+    animation-duration: 2s;
+
+}
+
+@keyframes fade-in{
+    from{ opacity:0}
+    to{opacity: 100}
+}
+
+@keyframes fade-out{
+    from{opacity: 100}
+    to{opacity: 0}
+}
